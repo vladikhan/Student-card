@@ -7,11 +7,17 @@
     display: block;
     width: 100%;
 }
-
+@media(max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
 .info{
     display: flex;
     margin-bottom: 20px;
 }
+
 .info{
     font-style:italic;
     font-size: 100%;
@@ -23,6 +29,7 @@
     letter-spacing: 5px; пробел между буквами
     word-spacing: 42px; пробел между словами */ 
 }
+
 .info h1{
     width: 80%;
 }
@@ -225,4 +232,7 @@ a:active{
     margin-top: 0px;
     padding-bottom: 20px;
 
+}
+.linkpic a{
+    border-radius:  10px;
 }
